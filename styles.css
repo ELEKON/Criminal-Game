@@ -1,0 +1,192 @@
+/*Styles για την σελίδα index.php*/
+body, html{
+	height: 100%;
+	margin: 0;
+	background-color: #486A85;
+}
+
+.bg-image{
+	background-image: url("../images/background.jpg");
+	height: 90%;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.button {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 120%;
+	position: absolute;
+	top: 100%;
+	left: 35%;
+	border-color: white;
+	width: 35%;
+}
+
+video{
+	width: 80%;
+	position: absolute;
+	top: 10%;
+	left: 12%;
+	visibility: hidden;
+}
+
+/*Styles για την σελίδα katathesis.php*/
+.header{
+	margin: 2%;
+	text-align: center;
+
+}
+.main{
+	height:700px;
+}
+
+.card img{
+	width: 90%;
+	height: 30%;
+	margin-left: auto;
+ 	margin-right: auto;
+
+}
+
+.card p{
+	text-align: justify;
+}
+
+.card h5{
+	text-align: center;
+}
+
+.barman-card img{ 
+	width: 30%;
+	height: 80%;
+	padding-top: 2%;
+}
+
+.barman-card{
+	text-align: center;
+}
+
+.card-group{
+	margin-bottom: 2%;
+}
+
+.card-group a {
+	margin: 2%;
+}
+
+.card-text #next{
+	margin-bottom: 4%;
+}
+
+
+/*Styles για την σελίδα provlepsi.php*/
+.question{
+	width: 60%;
+}
+
+form{
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+form .btn{
+	margin: 1% 5%;
+	border-radius: 8px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 120%;
+	border-color: white;
+}
+
+
+#prediction{
+	width: 25%;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+#predict{
+/*	color: white;*/
+	font-weight: bold;
+}
+
+
+
+/*Styles για την σελίδα sigkrish.php*/
+.row{
+	margin-top: 5%;
+}
+
+h3{
+	text-align: center;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;
+}
+#compare_button{
+	margin-top: 15%;
+}
+h5{
+	width: 100%;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+#results_table{
+	display: none; 
+}
+.side-bar {
+   width: 100%;	
+   margin: 0 auto;
+}
+
+#change_prediction{
+ 	width: 40%;	
+}
+
+#actions a{
+	width: 30%;
+	margin-left: 10%;
+	
+}
+
+#actions a{
+	color: white;
+}
+
+#change_criminal_button{
+	width: 50%;
+
+	margin-left: 18%;
+}
+
+.form select{
+	margin-left: 20%;
+}
+
+.form button{
+	margin-left: 13.5%;
+	
+}
+
+/*Styles για την σελίδα conclusion.php*/
+#conclusion {
+margin-top: 2%;
+text-align: center;
+}
+
+#conclusion img{
+	max-width: 30%;
+	max-height: 30%;
+}
